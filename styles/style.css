@@ -16,3 +16,19 @@ body {
     width: 200px;
     height: 250px;
 }
+
+.open_card {
+    background-color: lightcoral;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.lightgrey {
+    background-color: lightgrey;
+}
+
+.lightcoral {
+    background-color: lightcoral;
+}
