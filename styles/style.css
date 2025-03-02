@@ -10,15 +10,20 @@ body {
     align-items: center;
 }
 
-.card {
-    border: 1px solid whitesmoke;
-    background-color: lightgreen;
-    width: 200px;
-    height: 250px;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50vw;
+    gap: 40px;
+    height: 100vh;
 }
 
-.open_card {
-    background-color: lightcoral;
+.card {
+    border: 1px solid whitesmoke;
+    width: 200px;
+    height: 250px;
 }
 
 .lightblue {
@@ -31,4 +36,17 @@ body {
 
 .lightcoral {
     background-color: lightcoral;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.closed_cards {
+    background-color: lightslategray;
+}
+
+.remove_card {
+    background-color: transparent;
+    border: none;
 }
